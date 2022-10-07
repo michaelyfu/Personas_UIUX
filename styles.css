@@ -1,3 +1,8 @@
+*
+{
+font-family: 'Roboto', mono;
+}
+
 .bodyDiv {
 	text-align: center;
 }
@@ -76,4 +81,11 @@
 .p1 {
 /*	background: red;
 */	margin-top: 10em;
+}
+
+.observations {
+	display: flex;
+	text-align: center;
+    align-items: center;
+  	justify-content: center;
 }
