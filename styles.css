@@ -3,8 +3,21 @@
 font-family: 'Roboto', mono;
 }
 
+@font-face {
+  font-family: "GildaDisplay";
+  src: url("components/Gilda_Display/GildaDisplay-regular.ttf") format("truetype");
+}
+
+h1, h2, h3, h4 {
+	font-family: GildaDisplay;
+	font-weight: bolder;
+}
+
 .bodyDiv {
 	text-align: center;
+	background: url("./components/background2.png");
+	background-repeat: repeat;
+	background-size: auto auto;
 }
 
 .toDo {
@@ -39,10 +52,14 @@ font-family: 'Roboto', mono;
 	width: 100%;
 }
 
+/* Taken from https://www.thewebblinders.in/programming/article/the-right-way-of-doing-css-full-screen-landing-page-with-centered-content-6030 */
 .landingPage {
 	margin: 0 auto 0 auto;
 	width: 100%;
 	height: 100vh;
+	background: url("./components/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 
 	/* For centering content */
 	display: flex;
@@ -59,10 +76,11 @@ font-family: 'Roboto', mono;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 	width: 100%;
 	border-style: solid;
 	border-color: black;
+	border-radius: 8px;
 	transition: transform .2s;
 }
 
@@ -88,4 +106,19 @@ font-family: 'Roboto', mono;
 	text-align: center;
     align-items: center;
   	justify-content: center;
+  	margin-bottom: 20px;
+/*  	background: red;
+*/}
+
+.observation-flex {
+	position:relative; left:30px; top:2px;
+}
+
+.observation-parent {
+	margin-bottom: 20px;
+}
+
+.hr-red {
+	color: #8758FF;
+	font-weight: 50px;
 }
