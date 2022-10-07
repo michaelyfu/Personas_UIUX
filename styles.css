@@ -13,6 +13,13 @@
 	width: 100%;
 }
 
+.sciLiImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
 .empathyMap {
 	display: block;
 	margin-left: auto;
@@ -40,4 +47,33 @@
 
 .child {
 	margin: auto;
+}
+
+.storyboard {
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-style: solid;
+	border-color: black;
+	transition: transform .2s;
+}
+
+.storyboard:hover {
+	transform: scale(1.2);
+    z-index: 1;
+}
+
+#special {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.p1 {
+/*	background: red;
+*/	margin-top: 10em;
 }
